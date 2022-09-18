@@ -1,0 +1,81 @@
+/* german flag hover */
+body {
+  width: 75%;
+  margin: 20px auto;
+}
+
+.germany {
+  border: 1px solid black;
+  height: 270px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.top {
+  width: 450px;
+  height: 90px;
+  background-color: black;
+  margin: auto;
+}
+
+.middle {
+  width: 450px;
+  height: 90px;
+  background-color: red;
+  margin: auto;
+}
+
+.bottom {
+  width: 450px;
+  height: 90px;
+  background-color: gold;
+  margin: auto;
+}
+
+.germany:hover .top {
+  background-color: red;
+}
+.germany:hover .middle {
+  background-color: white;
+}
+.germany:hover .bottom {
+  background-color: green;
+}
+
+/* French flag hover*/
+.france {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  height: 270px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.left {
+  height: 270px;
+  width: 150px;
+  background-color: blue;
+}
+
+.centre {
+  height: 270px;
+  width: 150px;
+  background-color: white;
+}
+
+.right {
+  height: 270px;
+  width: 150px;
+  background-color: red;
+}
+
+.france:hover .left {
+  background-color: green;
+}
+.france:hover .centre {
+  background-color: white;
+}
+.france:hover .right {
+  background-color: orange;
+}
